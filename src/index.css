@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 550;
+}
+
+:root {
+  --primary-color: #ff9480;
+  --main-transition: opacity 0.3s ease;
+  --signin-button: rgb(31, 82, 129);
+}
+
+body {
+  margin: 0;
+  background-image: url('./assets//bd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-image: url('./assets/footer.jpg');
+}
+
+.img40 {
+  width: 50%;
+  height: 40%;
+  border: 3px solid;
+  border-radius: 12px;
+}
+
+.info {
+  text-align: left;
+}
+
+.useravatar {
+  background: rgb(255, 254, 254);
+  background: rgba(255, 252, 252, 0.132);
+  filter: drop-shadow(0px 2px 5px rgba(5, 213, 250, 0.173));
+}
