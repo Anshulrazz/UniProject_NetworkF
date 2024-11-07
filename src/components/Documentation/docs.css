@@ -1,0 +1,12 @@
+.underlineeffect{
+    color: #00a2ff;
+    cursor: pointer;
+}
+
+.underlineeffect:hover{
+    color: #ffb703;
+    transition: 0.2s;
+    text-decoration: underline;
+    text-decoration-color: #ffb703;
+    text-decoration-thickness: 5px; 
+}

@@ -1,0 +1,13 @@
+#features {
+  height: auto;
+  width: 100%;
+  margin: 1em 0;
+}
+
+#features .title {
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.8;
+  color: aliceblue;
+  font-size: clamp(1.3em, 2vw, 2em);
+}

@@ -1,0 +1,113 @@
+/* General Layout */
+.contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 12px auto;
+    padding: 3rem 1rem;
+    backdrop-filter: blur(50px);
+    border: 2px solid #4362ee22;
+    border-radius: 10px;
+}
+
+/* Grid Layout */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+/* Form Section */
+.contact-form h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-form p {
+    color: #fffbfb;
+    margin-bottom: 2rem;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    color: #fffbfb;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;    
+    padding: 0.75rem;
+    border: 1px solid #4362ee35;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    background-color: #6c757d19;
+    backdrop-filter: blur(5px);
+}
+
+.contact-form textarea {
+    min-height: 150px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4361ee;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #4362eeb9;
+}
+
+/* Contact Information Section */
+.contact-info {
+    backdrop-filter: blur(0.1px);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.contact-info h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-info .info-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-info .info-group h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info .info-group p {
+    color: #fffbfb;
+    margin: 0;
+}
+.map iframe{
+    border: 2px solid #4362ee7a;
+    border-radius: 6px;
+}
